@@ -1,4 +1,4 @@
-import React from "react";
+/*import React from "react";*/
 import { HiCheckBadge } from "react-icons/hi2";
 export default function Search_results() {
   const data = [

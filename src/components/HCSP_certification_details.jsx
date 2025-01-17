@@ -1,4 +1,4 @@
-import React from "react";
+/*import React from "react";*/
 export default function HCSP_certification_details() {
   return (
     <div>
