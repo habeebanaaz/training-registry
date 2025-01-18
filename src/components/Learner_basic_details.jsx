@@ -9,7 +9,7 @@ export default function Learner_basic_details() {
       <form>
         <div className="row">
           <div className="input-container">
-            <label>
+            <label style={{ fontWeight: "bold" }}>
               Group ID:
               <input
                 type="text"
@@ -20,7 +20,7 @@ export default function Learner_basic_details() {
             </label>
           </div>
           <div className="input-container">
-            <label>
+            <label style={{ fontWeight: "bold" }}>
               Group Name:
               <input
                 type="text"
@@ -33,7 +33,7 @@ export default function Learner_basic_details() {
         </div>
         <div className="row">
           <div className="input-container">
-            <label>
+            <label style={{ fontWeight: "bold" }}>
               Provider First Name:
               <input
                 type="text"
@@ -44,7 +44,7 @@ export default function Learner_basic_details() {
             </label>
           </div>
           <div className="input-container">
-            <label>
+            <label style={{ fontWeight: "bold" }}>
               Provider Last Name:
               <input
                 type="text"
@@ -57,7 +57,9 @@ export default function Learner_basic_details() {
         </div>
         <div className="row">
           <div className="input-container">
-            <label htmlFor="service-dropdown">Service Type:</label>
+            <label htmlFor="service-dropdown" style={{ fontWeight: "bold" }}>
+              Service Type:
+            </label>
             <select id="service-dropdown">
               <option value="">--Select Service Type--</option>
               <option value="home-nursing">Home Nursing</option>
@@ -66,7 +68,7 @@ export default function Learner_basic_details() {
             </select>
           </div>
         </div>
-        <p>*Please enter atleast one value for the search criteria</p>
+        <p>*Please enter at least one value for the search criteria</p>
         <div className="row">
           <button type="submit" className="search-button">
             <FaSearch style={{ marginRight: "8px" }} />
