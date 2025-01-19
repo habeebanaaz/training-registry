@@ -1,5 +1,6 @@
-/*import React from "react";*/
+/* import React from "react"; */
 import { HiCheckBadge } from "react-icons/hi2";
+
 export default function Search_results() {
   const data = [
     {
@@ -51,7 +52,9 @@ export default function Search_results() {
       additional_certifications: "Medication Administration",
     },
   ];
+
   const fieldNames = Object.keys(data[0]);
+
   return (
     <div>
       <h2>Search Results</h2>
@@ -80,15 +83,13 @@ export default function Search_results() {
                 </td>
               ))}
               <td>
-                <button type="submit" className="hcsp-button">
-                  <HiCheckBadge style={{ marginRight: "8px" }} />
-                  Certified
+                <button type="button" className="hcsp-button">
+                  <HiCheckBadge className="hcsp-icon" />
+                  HCSP Certified
                 </button>
               </td>
               <td>
-                <button type="submit" className="view-button">
-                  View
-                </button>
+                <button type="button" className="view-button">View</button>
               </td>
             </tr>
           ))}
